@@ -6,12 +6,13 @@ app.ts --> app.js --> (bundle it with webpack) --> /dist/DayWithBundledTimezone.
 ```
 Then copy-past the content of `DayWithBundledTimezone.js` as a Google Script library and use it in a project.
 
+```
 Create .gitignore
 git init
 npm init
 npm install typescript --save-dev
 npx tsc --init
-
+```
 > **_NOTE:_** Visual Studio Code shows errors. Please ignore them and continue.
 
 ## To bundle the script
