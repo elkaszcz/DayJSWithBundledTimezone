@@ -13,7 +13,7 @@ webpack
 
 ## Installation in Google Script environment
 1. Copy the content of `/dist/Day.js` to a newly created Google Script and deploy it as a library.
-2. Then import the code as a libray in a different script
+2. Then import the code as a libray in a different script and name it `Day`
 3. Sample usage:
 ```javascript
 const { dayjs } = Day.Dayjs
