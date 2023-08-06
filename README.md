@@ -1,4 +1,11 @@
 # How to bundle DayJS with timezone
+The idea is to import `DayJs` with `utc` and `timezone` plugins and then transpile it to JS to then bundle it all with webpack.
+
+```
+app.ts --> app.js --> (bundle it with webpack) --> /dist/DayWithBundledTimezone.js
+```
+Then copy-past the content of `DayWithBundledTimezone.js` as a Google Script library and use it in a project.
+
 Create .gitignore
 git init
 npm init
